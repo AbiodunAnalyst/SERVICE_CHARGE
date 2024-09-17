@@ -1,5 +1,5 @@
-### Background of Project
-A mid-sized retail business, ShopEase, operates an online store where customers can make 
+### Project
+A mid-sized retail business, operates an online store where customers can make 
 purchases using various payment methods. 
 
 #### Key Variable:
