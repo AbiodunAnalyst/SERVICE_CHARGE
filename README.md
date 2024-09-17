@@ -1,4 +1,4 @@
-### Project
+### Introduction
 A mid-sized retail business, operates an online store where customers can make 
 purchases using various payment methods. 
 
