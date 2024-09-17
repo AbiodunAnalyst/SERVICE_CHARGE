@@ -1,4 +1,4 @@
-#### Background
+### Background
 A mid-sized retail business, ShopEase, operates an online store where customers can make 
 purchases using various payment methods. To understand discrepancies in transaction fees 
 and to streamline customer experiences, ShopEase partnered with a payment processor that 
