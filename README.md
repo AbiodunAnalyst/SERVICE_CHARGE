@@ -37,10 +37,11 @@ connection libraries such as RPostgres.
 
 
 ##### Step 4: Reporting with Power BI
-With the transformed data now stored in PostgreSQL, the final step is to create reports and visualizations using Power BI. Power BI connects directly to the PostgreSQL database using the PostgreSQL connector.
+With the transformed data now stored in PostgreSQL, the final step is to create reports and 
+visualizations using Power BI. Power BI connects directly to the PostgreSQL database using 
+the PostgreSQL connector.
 
-Connect Power BI to PostgreSQL: Use the native PostgreSQL connector in Power BI to access the data.
-
+##### Solution
 <img width="737" alt="image" src="https://github.com/user-attachments/assets/31bec266-3f23-4759-a78f-5bff895398bf">
 
 
