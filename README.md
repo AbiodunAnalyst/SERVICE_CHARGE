@@ -1,10 +1,8 @@
 ### Background of Project
 A mid-sized retail business, ShopEase, operates an online store where customers can make 
-purchases using various payment methods. To understand discrepancies in transaction fees 
-and to streamline customer experiences, ShopEase partnered with a payment processor that 
-provides detailed transaction data.
+purchases using various payment methods. 
 
-#### Key Concepts:
+#### Key Variable:
 1.  Business Name: This field captures the name of the businesses involved in the transactions. It allows us to categorize and identify key participants.
 2.  User Type: Differentiates between user categories such as customers, merchants, or system users, giving insights into transaction flow between different actors.
 3.  Reference & Unique Identifier: These fields can help track individual transactions, allowing for traceability and auditing.
@@ -18,6 +16,7 @@ provides detailed transaction data.
 The project looks at the impact of various service fee structures on user behavior
 
 #### Analysis Process
+
 ##### ETL Process for Transaction Data Analysis
 In this case study, we follow the ETL (Extract, Transform, Load) process to analyze transaction 
 data, using various tools such as RStudio, PostgreSQL, and Power BI to create insightful reports.
