@@ -1,5 +1,5 @@
 ### INTRODUCTION
-A mid-sized retail business, operates an online store where customers can make 
+#### A mid-sized retail business, operates an online store where customers can make 
 purchases using various payment methods. 
 ---
 #### Key Variable:
@@ -13,7 +13,7 @@ purchases using various payment methods.
 8.  Card Type, Masked PAN, Card Description: Offers details about the payment method used, critical for understanding consumer preferences.
 ---
 #### Problem
-The project looks at the impact of various service fee structures on user behavior
+#### The project looks at the impact of various service fee structures on user behavior
 ---
 #### Analysis Process
 
