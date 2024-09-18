@@ -1,4 +1,4 @@
-#### INTRODUCTION
+### INTRODUCTION
 #### A mid-sized retail business, operates an online store where customers can make purchases using various payment methods. 
 ---
 #### Key Variable:
@@ -11,10 +11,10 @@
 7.  Status: Provides information on whether the transaction is successful, pending, or failed.
 8.  Card Type, Masked PAN, Card Description: Offers details about the payment method used, critical for understanding consumer preferences.
 ---
-#### Problem
+### Problem
 #### The project looks at the impact of various service fee structures on user behavior
 ---
-#### Analysis Process
+### Analysis Process
 
 ##### ETL Process for Transaction Data Analysis
 In this case study, we follow the ETL (Extract, Transform, Load) process to analyze transaction 
@@ -40,7 +40,7 @@ With the transformed data now stored in PostgreSQL, the final step is to create 
 visualizations using Power BI. Power BI connects directly to the PostgreSQL database using 
 the PostgreSQL connector.
 
-##### Solution
+### Solution
 <img width="737" alt="image" src="https://github.com/user-attachments/assets/31bec266-3f23-4759-a78f-5bff895398bf">
 
 
