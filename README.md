@@ -1,7 +1,7 @@
-### Introduction
+### INTRODUCTION
 A mid-sized retail business, operates an online store where customers can make 
 purchases using various payment methods. 
-
+---
 #### Key Variable:
 1.  Business Name: This field captures the name of the businesses involved in the transactions. It allows us to categorize and identify key participants.
 2.  User Type: Differentiates between user categories such as customers, merchants, or system users, giving insights into transaction flow between different actors.
@@ -11,10 +11,10 @@ purchases using various payment methods.
 6.  Transaction Type: Determines whether it’s a payment, refund, or other kinds of transactions, providing more context.
 7.  Status: Provides information on whether the transaction is successful, pending, or failed.
 8.  Card Type, Masked PAN, Card Description: Offers details about the payment method used, critical for understanding consumer preferences.
-
+---
 #### Problem
 The project looks at the impact of various service fee structures on user behavior
-
+---
 #### Analysis Process
 
 ##### ETL Process for Transaction Data Analysis
