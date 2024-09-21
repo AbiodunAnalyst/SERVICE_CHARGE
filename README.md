@@ -1,5 +1,5 @@
-### INTRODUCTION
-#### A mid-sized retail business, operates an online store where customers can make purchases using various payment methods. 
+### Project Background
+#### ShopEase is a mid-sized retail business, which operates an online store where customers can make purchases using various payment methods. 
 ---
 #### Key Variable:
 1.  Business Name: This field captures the name of the businesses involved in the transactions. It allows us to categorize and identify key participants.
