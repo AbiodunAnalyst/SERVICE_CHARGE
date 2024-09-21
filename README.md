@@ -43,10 +43,20 @@ the PostgreSQL connector.
 <img width="614" alt="image" src="https://github.com/user-attachments/assets/d548e3c1-31a9-4210-9128-dbb7f2f71667">
 
 ### Solution
-<img width="737" alt="image" src="https://github.com/user-attachments/assets/31bec266-3f23-4759-a78f-5bff895398bf">
+<img width="736" alt="image" src="https://github.com/user-attachments/assets/9966bcc1-aa1c-4aca-a5f5-38da46cac15f">
 
 
 
+### Insight
+The lower the service fee, the higher the transaction volume
+Service fees of 110 contribute the second highest total amount with moderate transaction volume
+Service fees of  50 contribute significant amount to total amount with low transaction volume
+Service fees of  20 contribute the highest amount to total amount with significant transaction volume
+Service fees of  0.55 contribute significant amount to total amount with second highest transaction volume
+Service fees of 0 contribute low amount to total amount with highest transaction volume
+
+
+The above insight will help the organization to make decisions about designing and adjusting pricing models that maximize transaction volume and profitability and direct focus to the segment of customers that contribute more profit to the business
 
 
 
