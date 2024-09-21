@@ -43,15 +43,14 @@
 
 ### Insight
   1. Agents are the largest contributors to transaction volume, making them the most critical group to focus on when considering service fee adjustments or promotional   efforts. 
-  2. Since commissions and withdrawals dominate transaction types, optimizing service fees for these categories will have the greatest impact on revenue. Less common 
+  2. Commissions and withdrawals dominate transaction types, optimizing service fees for these categories will have the greatest impact on revenue. Less common 
 transaction types like P2P and Cable TV may be opportunities for growth if made more attractive with lower fees.
-  3. Higher service fees seem to correlate with lower transaction volumes, which indicates that fees may be a deterrent for higher usage. Reducing fees or introducing tiered 
+  3. Higher service fees correlate with lower transaction volumes, which indicates that fees may be a deterrent for higher usage. Reducing fees or introducing tiered 
 pricing for high-volume users could increase overall transaction volume.
 ---
 
 ### Conclusion:
-  1.  Agent-driven transactions: With agents forming the majority of users, focusing on optimizing their experience could have the most significant impact on transaction 
-      volumes.
-  2.  Service fee structure: A reduction in higher fees or creating incentives for frequently used transaction types could lead to increased activity across the platform.
+  1.  With agents forming the majority of users, focusing on optimizing their experience could have the most significant impact on transaction volumes.
+  2.  A reduction in higher fees or creating incentives for frequently used transaction types could lead to increased activity across the platform.
 
 
