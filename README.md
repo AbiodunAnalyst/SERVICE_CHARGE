@@ -15,8 +15,8 @@
 ---
 ### Analysis Process
 
-#### ETL Process for Transaction Data Analysis
-##### In this case study, we follow the ETL (Extract, Transform, Load) process to analyze transaction data, using various tools such as RStudio, PostgreSQL, and Power BI to create insightful reports.
+#### ETL Process for Transaction Data Analysis: 
+In this project, we follow the ETL (Extract, Transform, Load) process to analyze transaction data, using various tools such as RStudio, PostgreSQL, and Power BI to create insightful reports.
 ---
 #### Step 1: Extract Data
 ##### The first step in the ETL process involves extracting the raw transaction data from a CSV files.
