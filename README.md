@@ -36,7 +36,8 @@
 ---
 
 ### Solution
-<img width="735" alt="image" src="https://github.com/user-attachments/assets/9e5bade9-e40d-4ed5-825b-88af8db1ee5a">
+<img width="740" alt="image" src="https://github.com/user-attachments/assets/c95ee02a-8904-4fab-af31-3595e28f26a7">
+
 
 ---
 
