@@ -36,21 +36,24 @@
 ---
 
 ### Solution
-<img width="740" alt="image" src="https://github.com/user-attachments/assets/c95ee02a-8904-4fab-af31-3595e28f26a7">
+<img width="743" alt="image" src="https://github.com/user-attachments/assets/6d56faaa-a32a-492d-a9cc-e5971466b7f1">
+
 
 
 ---
 
 ### Insight
-The lower the service fee, the higher the transaction volume
-Service fees of 110 contribute the second highest total amount with moderate transaction volume
-Service fees of  50 contribute significant amount to total amount with low transaction volume
-Service fees of  20 contribute the highest amount to total amount with significant transaction volume
-Service fees of  0.55 contribute significant amount to total amount with second highest transaction volume
-Service fees of 0 contribute low amount to total amount with highest transaction volume
+  1. Agents are the largest contributors to transaction volume, making them the most critical group to focus on when considering service fee adjustments or promotional   
+     efforts. Bankers are underutilized in this system.
+  2. Since commissions and withdrawals dominate transaction types, optimizing service fees for these categories will have the greatest impact on revenue. Less common 
+     transaction types like P2P and Cable TV may be opportunities for growth if made more attractive with lower fees.
+  3. Higher service fees seem to correlate with lower transaction volumes, which indicates that fees may be a deterrent for higher usage. Reducing fees or introducing tiered 
+     pricing for high-volume users could increase overall transaction volume.
+---
 
-
-The above insight will help the organization to make decisions about designing and adjusting pricing models that maximize transaction volume and profitability and direct focus to the segment of customers that contribute more profit to the business
-
+### Conclusion:
+  1.  Agent-driven transactions: With agents forming the majority of users, focusing on optimizing their experience could have the most significant impact on transaction 
+      volumes.
+  2.  Service fee structure: A reduction in higher fees or creating incentives for frequently used transaction types could lead to increased activity across the platform.
 
 
