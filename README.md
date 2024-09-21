@@ -43,7 +43,7 @@ the PostgreSQL connector.
 <img width="614" alt="image" src="https://github.com/user-attachments/assets/d548e3c1-31a9-4210-9128-dbb7f2f71667">
 
 ### Solution
-<img width="736" alt="image" src="https://github.com/user-attachments/assets/9966bcc1-aa1c-4aca-a5f5-38da46cac15f">
+<img width="735" alt="image" src="https://github.com/user-attachments/assets/9e5bade9-e40d-4ed5-825b-88af8db1ee5a">
 
 
 
