@@ -39,6 +39,9 @@ With the transformed data now stored in PostgreSQL, the final step is to create 
 visualizations using Power BI. Power BI connects directly to the PostgreSQL database using 
 the PostgreSQL connector.
 
+##### Model
+<img width="614" alt="image" src="https://github.com/user-attachments/assets/d548e3c1-31a9-4210-9128-dbb7f2f71667">
+
 ### Solution
 <img width="737" alt="image" src="https://github.com/user-attachments/assets/31bec266-3f23-4759-a78f-5bff895398bf">
 
