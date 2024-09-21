@@ -14,7 +14,7 @@
 ### Problem: The project looks at the impact of various service fee structures on user behavior.
 ---
 ### Analysis Process
-
+---
 #### ETL Process for Transaction Data Analysis: 
 ##### In this project, we follow the ETL (Extract, Transform, Load) process to analyze transaction data, using various tools such as RStudio, PostgreSQL, and Power BI to create insightful reports.
 ---
