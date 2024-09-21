@@ -42,12 +42,11 @@
 ---
 
 ### Insight
-  1. Agents are the largest contributors to transaction volume, making them the most critical group to focus on when considering service fee adjustments or promotional   
-     efforts. 
+  1. Agents are the largest contributors to transaction volume, making them the most critical group to focus on when considering service fee adjustments or promotional   efforts. 
   2. Since commissions and withdrawals dominate transaction types, optimizing service fees for these categories will have the greatest impact on revenue. Less common 
-     transaction types like P2P and Cable TV may be opportunities for growth if made more attractive with lower fees.
+transaction types like P2P and Cable TV may be opportunities for growth if made more attractive with lower fees.
   3. Higher service fees seem to correlate with lower transaction volumes, which indicates that fees may be a deterrent for higher usage. Reducing fees or introducing tiered 
-     pricing for high-volume users could increase overall transaction volume.
+pricing for high-volume users could increase overall transaction volume.
 ---
 
 ### Conclusion:
