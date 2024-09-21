@@ -17,16 +17,16 @@
 ### Analysis Process:
 #### In this project, we follow the ETL (Extract, Transform, Load) process to analyze transaction data, using various tools such as RStudio, PostgreSQL, and Power BI to create insightful reports.
 ---
-#### Step 1: Extract Data
+### Step 1: Extract Data
 ##### The first step in the ETL process involves extracting the raw transaction data from a CSV files.
 ---
-#### Step 2: Transform Data
+### Step 2: Transform Data
 #### Once the data is extracted, the next step is to clean and transform the data for analysis. Transformation Code is attached in file name Enforca_Solution.R
 ---
-#### Step 3: Load Data
+### Step 3: Load Data
 #### Once the data is transformed, it needs to be loaded into PostgreSQL for storage and further reporting. The transformed data is sent to a PostgreSQL database using RStudio's database connection libraries such as RPostgres.
 ---
-#### Step 4: Reporting with Power BI
+### Step 4: Reporting with Power BI
 ####  With the transformed data now stored in PostgreSQL, the final step is to create reports and visualizations using Power BI. Power BI connects directly to the  PostgreSQL database using the PostgreSQL connector.
 ---
 ### Model
