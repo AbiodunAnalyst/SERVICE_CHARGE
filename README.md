@@ -12,7 +12,7 @@
 8.  Card Type, Masked PAN, Card Description: Offers details about the payment method used, critical for understanding consumer preferences.
 ---
 ### Problem: 
-  The project looks at the impact of various service fee structures on user behavior.
+  #### The project looks at the impact of various service fee structures on user behavior.
 ---
 ### Analysis Process:
   In this project, we follow the ETL (Extract, Transform, Load) process to analyze transaction data, using various tools such as RStudio, PostgreSQL, and Power BI to create 
