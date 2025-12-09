@@ -39,49 +39,6 @@ It demonstrates:
 - Relational database modelling  
 - Insight generation for financial and operational teams  
 
----
-
-
-
-## 📦 End-to-End Data Pipeline Architecture
-
-        ┌──────────────────────────────┐
-        │     Raw Data Sources         │
-        │  (CSV, Excel, ZIP Files)     │
-        └──────────────┬───────────────┘
-                       │
-                       ▼
-        ┌──────────────────────────────┐
-        │     R ETL Pipeline           │
-        │  - File ingestion            │
-        │  - Data cleaning             │
-        │  - Missing value handling    │
-        │  - Feature engineering       │
-        └──────────────┬───────────────┘
-                       │
-                       ▼
-        ┌──────────────────────────────┐
-        │     Curated Dataset          │
-        │ (Cleaned & Enriched Service  │
-        │        Charge Data)          │
-        └──────────────┬───────────────┘
-                       │
-                       ▼
-        ┌──────────────────────────────┐
-        │     PostgreSQL Database      │
-        │  - service_charge_fact table │
-        │  - Query-ready data mart     │
-        └──────────────┬───────────────┘
-                       │
-                       ▼
-        ┌──────────────────────────────┐
-        │       Power BI Dashboard     │
-        │  - Trend analysis            │
-        │  - Time-of-day analytics     │
-        │  - User & transaction insight│
-        │  - Operational intelligence  │
-        └──────────────────────────────┘
-
 
 ---
 
@@ -152,6 +109,46 @@ Curated data was loaded into a **PostgreSQL fact table**, forming the analytical
 ### **Step 4 — Report**
 Power BI connected directly to PostgreSQL, enabling dynamic dashboards and interactive exploration.
 
+---
+
+## 📦 End-to-End Data Pipeline Architecture
+
+        ┌──────────────────────────────┐
+        │     Raw Data Sources         │
+        │  (CSV, Excel, ZIP Files)     │
+        └──────────────┬───────────────┘
+                       │
+                       ▼
+        ┌──────────────────────────────┐
+        │     R ETL Pipeline           │
+        │  - File ingestion            │
+        │  - Data cleaning             │
+        │  - Missing value handling    │
+        │  - Feature engineering       │
+        └──────────────┬───────────────┘
+                       │
+                       ▼
+        ┌──────────────────────────────┐
+        │     Curated Dataset          │
+        │ (Cleaned & Enriched Service  │
+        │        Charge Data)          │
+        └──────────────┬───────────────┘
+                       │
+                       ▼
+        ┌──────────────────────────────┐
+        │     PostgreSQL Database      │
+        │  - service_charge_fact table │
+        │  - Query-ready data mart     │
+        └──────────────┬───────────────┘
+                       │
+                       ▼
+        ┌──────────────────────────────┐
+        │       Power BI Dashboard     │
+        │  - Trend analysis            │
+        │  - Time-of-day analytics     │
+        │  - User & transaction insight│
+        │  - Operational intelligence  │
+        └──────────────────────────────┘
 ---
 
 ## 🏗️ Data Model (Power BI)
