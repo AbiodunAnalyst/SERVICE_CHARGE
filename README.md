@@ -75,7 +75,7 @@ The project demonstrates how to:
 - **BI Tool:** Power BI  
 
 ##          ETL Process
-- The full ETL process code is in the file
+- The full ETL process code is in the file name Enforca_Solution.R
 
 ### Project Background
 #### ShopEase is a mid-sized retail business, which operates an online store where customers can make purchases using various payment methods. 
