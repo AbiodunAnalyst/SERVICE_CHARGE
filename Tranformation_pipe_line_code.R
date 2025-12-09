@@ -137,13 +137,9 @@ dbWriteTable(con, "Price_df", Price_df, overwrite = TRUE)
 
 
 # Write to the database, appending data to existing table
-#dbWriteTable(con, "Crime_df", Crime_df, append = TRUE)
-
-
-# Write to the database with a different table name
-#dbWriteTable(con, "New_Crime_df", Crime_df)
-
+dbWriteTable(con, "Crime_df", Crime_df, append = TRUE)
 
 dbDisconnect(con)
+
 
 
