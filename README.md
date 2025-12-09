@@ -41,30 +41,7 @@ It demonstrates:
 
 ---
 
-# 📁 Repository Structure
 
-
-
-
-
-
-
-
-
-
-
-# 💳 Service Charge Analytics – End-to-End ETL & BI Pipeline  
-### R ETL • PostgreSQL Data Mart • Power BI Reporting
-
-This repository contains an end-to-end **data engineering and analytics pipeline** for analysing bank **service charge transactions**.  
-
-The project demonstrates how to:
-
-- Ingest **multiple raw files** (CSV, Excel, ZIP)
-- Clean and standardise transaction data
-- Engineer time-based and business-friendly features
-- Load curated data into a **PostgreSQL** database
-- Expose the dataset to **Power BI** for interactive reporting
 
 ## 📦 End-to-End Data Pipeline Architecture
 
