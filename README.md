@@ -1,3 +1,58 @@
+<h1 align="center">💳 Service Charge Analytics Pipeline</h1>
+
+<p align="center">
+  <strong>Automated ETL • Data Quality Framework • PostgreSQL Data Mart • Power BI Insights</strong>
+</p>
+
+<p align="center">
+  End-to-end financial data engineering pipeline built using R, PostgreSQL, and Power BI to process, enrich, and analyze service charge transactions at scale.
+</p>
+
+<p align="center">
+
+  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
+  <img src="https://img.shields.io/badge/Data%20Engineering-4B8BBE?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/Status-Production--Ready-brightgreen?style=for-the-badge" />
+
+</p>
+
+---
+
+<p align="center">
+  <em>This repository demonstrates enterprise-level ETL engineering, feature engineering, analytical modelling, and BI reporting — suitable as technical evidence for the UK Global Talent Visa.</em>
+</p>
+
+---
+
+# 📦 **Project Overview**
+
+This repository contains a production-ready **ETL and BI analytics system** for bank service charge transactions.  
+The project transforms raw CSV, Excel, and ZIP files into a structured **PostgreSQL data mart**, enriched with engineered features and visualized through an interactive **Power BI dashboard**.
+
+It demonstrates:
+
+- Automated ingestion of multiple file formats  
+- Robust data quality checks  
+- Business-driven feature engineering  
+- Relational database modelling  
+- Insight generation for financial and operational teams  
+
+---
+
+# 📁 Repository Structure
+
+
+
+
+
+
+
+
+
+
+
 # 💳 Service Charge Analytics – End-to-End ETL & BI Pipeline  
 ### R ETL • PostgreSQL Data Mart • Power BI Reporting
 
@@ -75,7 +130,7 @@ The project demonstrates how to:
 - **BI Tool:** Power BI  
 
 ##          ETL Process
-- The full ETL process code is in the file name Enforca_Solution.R
+- The full ETL process code is in the file name Tranformation_pipe_line_code.R
 
 ### Project Background
 #### ShopEase is a mid-sized retail business, which operates an online store where customers can make purchases using various payment methods. 
