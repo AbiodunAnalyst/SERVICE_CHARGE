@@ -182,7 +182,7 @@ The dashboard answers ShopEase’s core business questions:
 
 ---
 
-## 📊 Key Insights (Strengthened & More Strategic)
+## 📊 Key Insights
 
 ### **1️⃣ Agents are the most influential user group**
 Agents account for the majority of transaction volume, meaning:
