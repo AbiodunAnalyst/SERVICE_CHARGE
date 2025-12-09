@@ -21,7 +21,7 @@
 ---
 
 <p align="center">
-  <em>This repository demonstrates enterprise-level ETL engineering, feature engineering, analytical modelling, and BI reporting — suitable as technical evidence for the UK Global Talent Visa.</em>
+  <em>This repository demonstrates enterprise-level ETL engineering, feature engineering, analytical modelling, and BI reporting.</em>
 </p>
 
 ---
