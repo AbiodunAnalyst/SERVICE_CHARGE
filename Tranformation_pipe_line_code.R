@@ -1,3 +1,5 @@
+# ----------------------------- Libraries ----------------------------------
+
 library(data.table)
 library(dplyr)
 library(tidyverse)
@@ -6,20 +8,24 @@ library(data.table)
 library(readxl)
 library(lubridate)
 
+
+# ------------------------ File Ingestion --------------------------
+
 merge_csv_files <- function(mypath) {
-  # Get the list of file names
+  # List all files in the path
   filenames <- list.files(path = mypath, full.names = TRUE)
   
-  # Function to handle reading of files
+  # Function to read a single file (csv, xlsx, zip with one file)
   read_file <- function(file) {
+    # ZIP file
     if (grepl("\\.zip$", file)) {
-      # If the file is a zip, list the contents
       zip_contents <- unzip(file, list = TRUE)
       if (nrow(zip_contents) > 1) {
         stop("Compressed files containing more than 1 file are currently not supported.")
       }
-      # Extract the single file and read it
+    
       temp_file <- unzip(file, files = zip_contents$Name[1], exdir = tempdir())
+     
       if (grepl("\\.csv$", temp_file)) {
         data <- fread(temp_file)
       } else if (grepl("\\.xlsx?$", temp_file)) {
@@ -48,27 +54,36 @@ merge_csv_files <- function(mypath) {
   return(merged_data)
 }
 
-# Specify the directory containing CSV and Excel files
+# ------------------------- Ingest Raw Data --------------------------------
 
-directory_path <- "C:/Users/DELL LATITUDE 7370/OneDrive/Documents/ENFORCA/bank"
+# Specify the directory containing CSV and Excel files
+directory_path <- "C:/Users/joe/data_f"
 
 # Call the merge_csv_files function to merge files from the directory
-
 Price_df <- merge_csv_files(directory_path) %>%
 
+# ------------------------- Deduplication ----------------------------------
 # Remove duplicate rows   
   distinct() %>%  
+
+# ------------------------- Select Relevant Columns ----------------------------------
   # Select required columns
   select('Date', 'User Type', 'Transaction Type','Service Fee','Banker Service Fee',
          'Customer Service Fee', 'Amount') %>%  
-  # Remove rows where all specified columns are NA or empty
+ 
+# ------------------- Missing Values & Empty Rows --------------------------
+
+# Remove rows where all specified columns are NA or empty
   filter(!(
     (is.na(Date) | trimws(Date) == "") &
     (is.na(`User Type`) | trimws(`User Type`) == "") &
     (is.na(`Transaction Type`) | trimws(`Transaction Type`) == "") &
     (is.na(Amount) | trimws(Amount) == "")
   )) %>%  
-  # Convert and separate into date and time columns
+  
+  # ----------------- Date/Time Parsing & Feature Engineering ----------------
+
+# Convert and separate into date and time columns
    mutate(
     Date = ymd_hms(Date),
     Full_date = as.Date(Date),
@@ -90,7 +105,10 @@ Price_df <- merge_csv_files(directory_path) %>%
   mutate(
     Time = format(Time, format = "%H:%M:%S")
   ) %>% 
-  # Renaming varaibles
+ 
+# ------------------ Rename Columns for Consistency ------------------------
+
+# Renaming varaibles
   rename(
     User_Type = `User Type`, 
     Transaction_Type = `Transaction Type`, 
@@ -104,15 +122,9 @@ Price_df <- merge_csv_files(directory_path) %>%
          "Banker_Service_Fee", "Customer_Service_Fee", "Amount")
 
 
-View(Price_df)
+# ---------------------- Load into PostgreSQL -----------------------------
 
-nrow(Price_df)
-
-summary(Price_df)
-
-str(Price_df)
-
-############### Connection to Posgresql ######################################
+# Connection to Posgresql 
 
 install.packages("RPostgres")
 
@@ -125,11 +137,11 @@ library(RPostgres)
 
 # Connection to the database
 con <- dbConnect(RPostgres::Postgres(), 
-                 dbname = "BankProject",
-                 host = "localhost",
-                 port = 5432,
-                 user = "postgres",
-                 password = "marvel")  # Password should be enclosed in quotes
+                dbname   = DB_NAME,
+                host     = DB_HOST,
+                port     = DB_PORT,
+                user     = DB_USER,
+                password = DB_PASSWORD  
 
 # Write to the database, overwriting existing table
 dbWriteTable(con, "Price_df", Price_df, overwrite = TRUE)
@@ -140,6 +152,7 @@ dbWriteTable(con, "Price_df", Price_df, overwrite = TRUE)
 dbWriteTable(con,"Price_df", Price_df, append = TRUE)
 
 dbDisconnect(con)
+
 
 
 
