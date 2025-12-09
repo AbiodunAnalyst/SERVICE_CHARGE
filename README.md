@@ -151,22 +151,6 @@ Power BI connected directly to PostgreSQL, enabling dynamic dashboards and inter
         └──────────────────────────────┘
 ---
 
-## 🛠️ Tech Stack
-
-- **Language:** R  
-- **Libraries:**  
-  - `data.table`, `dplyr`, `tidyverse` – data wrangling  
-  - `readxl` – Excel ingestion  
-  - `lubridate`, `hms` – date/time handling  
-  - `DBI`, `RPostgres` – PostgreSQL connectivity  
-- **Database:** PostgreSQL  
-- **BI Tool:** Power BI  
-
-##          ETL Process
-- The full ETL process code is in the file name Tranformation_pipe_line_code.R
-
-
----
 ## 🏗️ Data Model (Power BI)
 
 <img width="620" src="https://github.com/user-attachments/assets/d548e3c1-31a9-4210-9128-dbb7f2f71667">
