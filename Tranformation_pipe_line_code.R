@@ -137,9 +137,10 @@ dbWriteTable(con, "Price_df", Price_df, overwrite = TRUE)
 
 
 # Write to the database, appending data to existing table
-dbWriteTable(con, "Crime_df", Crime_df, append = TRUE)
+dbWriteTable(con,"Price_df", Price_df, append = TRUE)
 
 dbDisconnect(con)
+
 
 
 
