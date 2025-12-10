@@ -172,6 +172,8 @@ This star-schema design ensures:
 
 <img width="750" src="https://github.com/user-attachments/assets/6d56faaa-a32a-492d-a9cc-e5971466b7f1">
 
+**Service_Charge_App** *[Service_Charge_App](https://servicecharge-hbwmuceosgjjc5bm656day.streamlit.app)*
+
 The dashboard answers ShopEase’s core business questions:
 
 - *Where are service fees coming from?*  
