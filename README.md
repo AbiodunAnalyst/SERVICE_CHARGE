@@ -18,6 +18,22 @@
 
 </p>
 
+
+st.markdown(
+    """
+    <div style="background-color:#1F3B73;padding:18px;border-radius:6px;">
+        <h1 style="color:white;text-align:center;margin:0;">
+            💳 Service Charge Analytics Dashboard
+        </h1>
+        <p style="color:#E0E6F0;text-align:center;font-size:16px;margin-top:5px;">
+            Measuring the impact of service fee structure on transaction volume, revenue contribution, 
+            and user behaviour across digital financial channels.
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 ---
 
 <p align="center">
@@ -168,7 +184,7 @@ This star-schema design ensures:
 
 ---
 
-## 💡 Power BI Solution
+## 💡 Power BI Solution and Streamlit App deployment
 
 <img width="750" src="https://github.com/user-attachments/assets/6d56faaa-a32a-492d-a9cc-e5971466b7f1">
 
