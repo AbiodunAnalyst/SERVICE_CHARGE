@@ -18,22 +18,6 @@
 
 </p>
 
-
-st.markdown(
-    """
-    <div style="background-color:#1F3B73;padding:18px;border-radius:6px;">
-        <h1 style="color:white;text-align:center;margin:0;">
-            💳 Service Charge Analytics Dashboard
-        </h1>
-        <p style="color:#E0E6F0;text-align:center;font-size:16px;margin-top:5px;">
-            Measuring the impact of service fee structure on transaction volume, revenue contribution, 
-            and user behaviour across digital financial channels.
-        </p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
 ---
 
 <p align="center">
