@@ -174,7 +174,7 @@ This star-schema design ensures:
 
 ---
 
-**Service_Charge_App** *[Service_Charge_App](https://servicecharge-hbwmuceosgjjc5bm656day.streamlit.app)*
+**Service_Charge_App** *[Service_Charge_App](https://servicecharge-vbifffsc9ydwrc4cnwfuyd.streamlit.app/)*
 
 ---
 
