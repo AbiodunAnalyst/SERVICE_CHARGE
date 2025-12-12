@@ -29,7 +29,7 @@
 # 📦 **Project Overview**
 
 This repository contains a production-ready **ETL and BI analytics system** for bank service charge transactions.  
-The project transforms raw CSV, Excel, and ZIP files into a structured **PostgreSQL data mart**, enriched with engineered features and visualized through an interactive **Power BI dashboard**.
+The project transforms raw CSV, Excel, and ZIP files into a structured **PostgreSQL data mart**, enriched with engineered features and visualized through an interactive **Power BI dashboard and BI App deployment**.
 
 It demonstrates:
 
