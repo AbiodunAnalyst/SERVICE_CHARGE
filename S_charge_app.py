@@ -26,7 +26,7 @@ st.markdown(
 # --------------------------
 # Default data (ships with the app)
 # --------------------------
-DEFAULT_DATA_PATH = Path("data/service_charge_sample.csv")  
+DEFAULT_DATA_PATH = Path("service_charge_sample.csv")  
 
 
 # --------------------------
