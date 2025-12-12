@@ -164,27 +164,40 @@ total_amount = df["Amount"].sum() if "Amount" in df.columns else 0
 txn_volume = len(df)
 
 kpi1, kpi2 = st.columns(2)
+
 with kpi1:
     st.markdown(
         f"""
-        <div style="background-color:#F5F5F5;padding:15px;border-radius:5px;text-align:center;">
-        <h4>Total Amount</h4>
-        <h2>${total_amount:,.3f}</h2>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-with kpi2:
-    st.markdown(
-        f"""
-        <div style="background-color:#F5F5F5;padding:15px;border-radius:5px;text-align:center;">
-        <h4>Transaction Volume</h4>
-        <h2>{txn_volume:,}</h2>
+        <div style="
+            background-color:#0E1117;
+            padding:20px;
+            border-radius:8px;
+            text-align:center;
+            border:1px solid #2A2E35;
+        ">
+            <h4 style="color:#A6A6A6;">Total Amount</h4>
+            <h2 style="color:white;">${total_amount:,.3f}</h2>
         </div>
         """,
         unsafe_allow_html=True,
     )
 
+with kpi2:
+    st.markdown(
+        f"""
+        <div style="
+            background-color:#0E1117;
+            padding:20px;
+            border-radius:8px;
+            text-align:center;
+            border:1px solid #2A2E35;
+        ">
+            <h4 style="color:#A6A6A6;">Transaction Volume</h4>
+            <h2 style="color:white;">{txn_volume:,}</h2>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
 st.markdown("---")
 
