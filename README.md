@@ -227,7 +227,7 @@ Introduce **time-of-day pricing**, reducing fees during low-activity windows.
 ---
 
 ### **4️⃣ Platform revenue potential is under-optimized**
-With over **$184 million** processed and more than **11,000 transactions**,  
+With over **£184 million** processed and more than **11,000 transactions**,  
 ShopEase can significantly enhance profitability by:
 
 - Restructuring fees for high-impact transaction types  
