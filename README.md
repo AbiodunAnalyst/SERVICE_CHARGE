@@ -234,12 +234,4 @@ ShopEase can significantly enhance profitability by:
 - Improving transparency on customer fees  
 - Offering discounts for digital wallet usage (higher-margin transactions)
 
----
-
-## 🧠 Conclusion
-
-1. **Agents drive the business** — improving their fee experience will create the largest positive impact.
-2. **Targeted fee optimization**—not across-the-board changes—will yield the best financial results.
-3. **High-fee deterrence is real**, so pricing must balance revenue generation with customer retention.
-4. **Data-driven fee restructuring** could unlock new revenue, improve user satisfaction, and increase transaction volume.
 
