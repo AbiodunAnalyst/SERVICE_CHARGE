@@ -178,7 +178,8 @@ This star-schema design ensures:
 
 ## 💡 Power BI Solution and App deployment
 
-<img width="750" src="https://github.com/user-attachments/assets/6d56faaa-a32a-492d-a9cc-e5971466b7f1">
+<img width="769" height="397" alt="image" src="https://github.com/user-attachments/assets/f0d78378-0afb-4c5a-a87c-0d9c54dfb642" />
+
 
 ---
 ### Deployment Using Streamlit
