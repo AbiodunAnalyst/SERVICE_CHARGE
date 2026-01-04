@@ -41,7 +41,15 @@ It demonstrates:
 
 
 ---
+Personal Contribution & Responsibilities
+---
+- System Architecture & Data Pipeline Design
+- ETL Pipeline Development (R)
+- Data Quality & Governance
+- Database Implementation
+- Analytics & BI Layer
 
+---
 
 ## 📘 Project Background
 
@@ -171,6 +179,27 @@ This star-schema design ensures:
 ## 💡 Power BI Solution and App deployment
 
 <img width="750" src="https://github.com/user-attachments/assets/6d56faaa-a32a-492d-a9cc-e5971466b7f1">
+
+---
+### Deployment Using Streamlit
+---
+
+### Web Application Features:
+
+  ###  **Web Development**
+    The web application was developed using Python within Visual Studio Code, enabling rapid iteration, 
+    debugging, and version control during the development process.
+  
+  ###  **Core Libraries and Frameworks**
+    - Streamlit - for building and deploying an interactive web-based analytics interface
+    - Pandas & NumPy - for data manipulation and numerical computation
+    - Plotly - for data visualisation
+    
+  ###  **Deployment Platform**
+    - The application was deployed using Streamlit, allowing the analytics platform to be accessed through a 
+      lightweight, browser-based interface without requiring complex infrastructure.
+    - Streamlit was selected for deployment due to its suitability for rapid prototyping of data-driven applications 
+      and its ability to make analytical insights accessible to non-technical users.
 
 ---
 
