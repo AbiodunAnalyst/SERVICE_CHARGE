@@ -176,7 +176,7 @@ with kpi1:
             border:1px solid #2A2E35;
         ">
             <h4 style="color:#A6A6A6;">Total Amount</h4>
-            <h2 style="color:white;">${total_amount:,.3f}</h2>
+            <h2 style="color:white;">£{total_amount:,.3f}</h2>
         </div>
         """,
         unsafe_allow_html=True,
